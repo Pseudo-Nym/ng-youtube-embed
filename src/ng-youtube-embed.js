@@ -1,5 +1,5 @@
 /*
-    ng-youtube-embed v1.7.9
+    ng-youtube-embed v1.7.10
     Copyright (c) 2015 Arun Michael Dsouza (amdsouza92@gmail.com)
     Licence: MIT
     Demo on CodePen - http://codepen.io/amdsouza92/pen/yNxyJV
@@ -14,7 +14,7 @@
     // Module globals
     var VIDEO_IDS = [],
         YOUTUBE_IFRAME_EMBED_API = 'https://www.youtube.com/iframe_api',
-        YOUTUBE_VIDEO_ID_REGEX = /^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/,
+        YOUTUBE_VIDEO_ID_REGEX = /^(?:https?:\/\/)?(?:www\.|m\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/,
         YOUTUBE_VIDEO_ID_REGEX_GAMING = /^(?:https?:\/\/)?(?:www\.)?(?:gaming.youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
 
     // Function to load youtube iframe embed api
